@@ -8,8 +8,10 @@ public class Retailer {
 		int price;
 		if (productId.equals("101")) {
 			price = getPrice(100);
+			System.out.println("price 1");
 		} else if (productId.equals("102")) {
 			price = getPrice(200);
+			System.out.println("price 1");
 		} else if (productId.equals("103")) {
 			price = getPrice(300);
 		} else {
